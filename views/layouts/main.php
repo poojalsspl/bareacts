@@ -27,7 +27,6 @@ $directoryAsset = Yii::$app->assetManager->getPublishedUrl('@vendor/theme');
 <body>
 <?php $this->beginBody() ?>
 
-<div class="wrap">
  <?= $this->render(
         'header.php',
         ['directoryAsset' => $directoryAsset]
@@ -35,18 +34,17 @@ $directoryAsset = Yii::$app->assetManager->getPublishedUrl('@vendor/theme');
 
 
     <div class="container">
-        <?= Breadcrumbs::widget([
-            'links' => isset($this->params['breadcrumbs']) ? $this->params['breadcrumbs'] : [],
-        ]) ?>
+       
         <?= Alert::widget() ?>
         <?= $content ?>
     </div>
-</div>
 
+<footer style="background-color: #FEEBE7">
     <?= $this->render(
         'footer.php',
         ['directoryAsset' => $directoryAsset]
     ) ?>
+    </footer>
 
 <?php $this->endBody() ?>
 </body>

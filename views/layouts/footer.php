@@ -1,20 +1,23 @@
-<footer style="background-color: #FEEBE7">
+
   <div class="section-footer">
     <div class="container">
       <div class="row">
         <div class="col-md-3 col-sm-6 mb-4 mb-md-0">
-          <a href="index.html"><img src="theme/images_bareact/logo_bareact.png" alt="missing" class="img-fluid"></a>
+          <a href="index.html"><img src="theme/images_bareact/logo.png" alt="missing" class="img-fluid"></a>
         </div>
         <div class="col-md-3 col-sm-6 mb-4 mb-md-0">
           <ul class="list-unstyled">
             <li class="font-secondary text-dark">India</li>
-            <li class="font-secondary text-dark">Laxyo House,Mahalaxmi Nagar 452010</li>
+            <li class="font-secondary text-dark">Laxyo House, County Park,
+                                                 Plot No. 2, MR-5,
+                                                 Mahalaxmi Nagar, Indore,
+                                                 Madhya Pradesh 452010</li>
           </ul>
         </div>
         <div class="col-md-3 col-sm-6 mb-4 mb-md-0">
           <ul class="list-unstyled">
             <li class="font-secondary text-dark">Tel: +90 000 333 22</li>
-            <li class="font-secondary text-dark">Mail: bareactpro@ymail.com</li>
+            <li class="font-secondary text-dark">Mail: bareactpro@gmail.com</li>
           </ul>
         </div>
         <div class="col-md-3 col-sm-6 mb-4 mb-md-0">
@@ -33,4 +36,4 @@
     <p>Copyright ©<script>var CurrentYear = new Date().getFullYear()
     document.write(CurrentYear)</script> </p>
   </div>
-</footer>
+

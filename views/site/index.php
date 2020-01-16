@@ -22,7 +22,7 @@ $this->title = 'My Yii Application';
       </div>
       <div class="col-lg-3 col-sm-6 mb-2 mb-lg-0 px-1">
         <article class="card bg-dark text-center text-white border-0 rounded-0">
-          <img class="card-img rounded-0 img-fluid w-100" src="theme/images_bareact/features/bareact.png" alt="post-thumb">
+          <img class="card-img rounded-0 img-fluid w-100" src="theme/images_bareact/features/arbitrat.jpg" alt="post-thumb">
           <div class="card-img-overlay">
             <div class="card-content">
               <p class="text-uppercase"></p>
@@ -34,7 +34,7 @@ $this->title = 'My Yii Application';
       </div>
       <div class="col-lg-3 col-sm-6 mb-2 mb-lg-0 px-1">
         <article class="card bg-dark text-center text-white border-0 rounded-0">
-          <img class="card-img rounded-0 img-fluid w-100" src="theme/images_bareact/features/bareact.png" alt="post-thumb">
+          <img class="card-img rounded-0 img-fluid w-100" src="theme/images_bareact/features/environment_law.jpg" alt="post-thumb">
           <div class="card-img-overlay">
             <div class="card-content">
               <p class="text-uppercase"></p>
@@ -46,7 +46,7 @@ $this->title = 'My Yii Application';
       </div>
       <div class="col-lg-3 col-sm-6 mb-2 mb-lg-0 px-1">
         <article class="card bg-dark text-center text-white border-0 rounded-0">
-          <img class="card-img rounded-0 img-fluid w-100" src="theme/images_bareact/features/bareact.png" alt="post-thumb">
+          <img class="card-img rounded-0 img-fluid w-100" src="theme/images_bareact/features/mercantile_law.jpg" alt="post-thumb">
           <div class="card-img-overlay">
             <div class="card-content">
               <p class="text-uppercase"></p>
@@ -58,7 +58,7 @@ $this->title = 'My Yii Application';
       </div>
       <div class="col-lg-3 col-sm-6 mb-2 mb-lg-0 px-1">
         <article class="card bg-dark text-center text-white border-0 rounded-0">
-          <img class="card-img rounded-0 img-fluid w-100" src="theme/images_bareact/features/bareact.png" alt="post-thumb">
+          <img class="card-img rounded-0 img-fluid w-100" src="theme/images_bareact/features/public_utilities.jpg" alt="post-thumb">
           <div class="card-img-overlay">
             <div class="card-content">
               <p class="text-uppercase"></p>
