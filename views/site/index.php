@@ -10,7 +10,7 @@ $this->title = 'My Yii Application';
     <div class="row featured-post-slider">
       <div class="col-lg-3 col-sm-6 mb-2 mb-lg-0 px-1">
         <article class="card bg-dark text-center text-white border-0 rounded-0">
-          <img class="card-img rounded-0 img-fluid w-100" src="theme/images_bareact/features/bareact.png" alt="post-thumb">
+          <img class="card-img rounded-0 img-fluid w-100" src="/theme/images_bareact/features/bareact.png" alt="post-thumb">
           <div class="card-img-overlay">
             <div class="card-content">
               <p class="text-uppercase"></p>
@@ -22,7 +22,7 @@ $this->title = 'My Yii Application';
       </div>
       <div class="col-lg-3 col-sm-6 mb-2 mb-lg-0 px-1">
         <article class="card bg-dark text-center text-white border-0 rounded-0">
-          <img class="card-img rounded-0 img-fluid w-100" src="theme/images_bareact/features/arbitrat.jpg" alt="post-thumb">
+          <img class="card-img rounded-0 img-fluid w-100" src="/theme/images_bareact/features/arbitrat.jpg" alt="post-thumb">
           <div class="card-img-overlay">
             <div class="card-content">
               <p class="text-uppercase"></p>
@@ -34,7 +34,7 @@ $this->title = 'My Yii Application';
       </div>
       <div class="col-lg-3 col-sm-6 mb-2 mb-lg-0 px-1">
         <article class="card bg-dark text-center text-white border-0 rounded-0">
-          <img class="card-img rounded-0 img-fluid w-100" src="theme/images_bareact/features/environment_law.jpg" alt="post-thumb">
+          <img class="card-img rounded-0 img-fluid w-100" src="/theme/images_bareact/features/environment_law.jpg" alt="post-thumb">
           <div class="card-img-overlay">
             <div class="card-content">
               <p class="text-uppercase"></p>
@@ -46,7 +46,7 @@ $this->title = 'My Yii Application';
       </div>
       <div class="col-lg-3 col-sm-6 mb-2 mb-lg-0 px-1">
         <article class="card bg-dark text-center text-white border-0 rounded-0">
-          <img class="card-img rounded-0 img-fluid w-100" src="theme/images_bareact/features/mercantile_law.jpg" alt="post-thumb">
+          <img class="card-img rounded-0 img-fluid w-100" src="/theme/images_bareact/features/mercantile_law.jpg" alt="post-thumb">
           <div class="card-img-overlay">
             <div class="card-content">
               <p class="text-uppercase"></p>
@@ -58,7 +58,7 @@ $this->title = 'My Yii Application';
       </div>
       <div class="col-lg-3 col-sm-6 mb-2 mb-lg-0 px-1">
         <article class="card bg-dark text-center text-white border-0 rounded-0">
-          <img class="card-img rounded-0 img-fluid w-100" src="theme/images_bareact/features/public_utilities.jpg" alt="post-thumb">
+          <img class="card-img rounded-0 img-fluid w-100" src="/theme/images_bareact/features/public_utilities.jpg" alt="post-thumb">
           <div class="card-img-overlay">
             <div class="card-content">
               <p class="text-uppercase"></p>
@@ -79,7 +79,7 @@ $this->title = 'My Yii Application';
     <div class="row masonry-container">
       <div class="col-lg-4 col-sm-6 mb-5">
         <article class="text-center">
-          <img class="img-fluid mb-4" src="theme/images_bareact/section/family.jpg" alt="post-thumb">
+          <img class="img-fluid mb-4" src="/theme/images_bareact/section/family.jpg" alt="post-thumb">
           <p class="text-uppercase mb-2"></p>
           <h4 class="title-border"><a class="text-dark" href="blog-single.html">Family Law</a></h4>
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
@@ -90,7 +90,7 @@ $this->title = 'My Yii Application';
       </div>
       <div class="col-lg-4 col-sm-6 mb-5">
         <article class="text-center">
-          <img class="img-fluid mb-4" src="theme/images_bareact/section/defence.png" alt="post-thumb">
+          <img class="img-fluid mb-4" src="/theme/images_bareact/section/defence.png" alt="post-thumb">
           <p class="text-uppercase mb-2"></p>
           <h4 class="title-border"><a class="text-dark" href="blog-single.html">Defence Law</a></h4>
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
@@ -101,7 +101,7 @@ $this->title = 'My Yii Application';
       </div>
       <div class="col-lg-4 col-sm-6 mb-5">
         <article class="text-center">
-          <img class="img-fluid mb-4" src="theme/images_bareact/section/criminal.jpg" alt="post-thumb">
+          <img class="img-fluid mb-4" src="/theme/images_bareact/section/criminal.jpg" alt="post-thumb">
           <p class="text-uppercase mb-2"></p>
           <h4 class="title-border"><a class="text-dark" href="blog-single.html">Criminal Law</a></h4>
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
@@ -113,7 +113,7 @@ $this->title = 'My Yii Application';
 
       <div class="col-lg-4 col-sm-6 mb-5">
         <article class="text-center">
-          <img class="img-fluid mb-4" src="theme/images_bareact/section/administrative.jpg" alt="post-thumb">
+          <img class="img-fluid mb-4" src="/theme/images_bareact/section/administrative.jpg" alt="post-thumb">
           <p class="text-uppercase mb-2"></p>
           <h4 class="title-border"><a class="text-dark" href="blog-single.html">Administrative Law</a></h4>
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
@@ -124,7 +124,7 @@ $this->title = 'My Yii Application';
       </div>
       <div class="col-lg-4 col-sm-6 mb-5">
         <article class="text-center">
-          <img class="img-fluid mb-4" src="theme/images_bareact/section/media.jpg" alt="post-thumb">
+          <img class="img-fluid mb-4" src="/theme/images_bareact/section/media.jpg" alt="post-thumb">
           <p class="text-uppercase mb-2"></p>
           <h4 class="title-border"><a class="text-dark" href="blog-single.html">Media Law</a></h4>
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
@@ -135,7 +135,7 @@ $this->title = 'My Yii Application';
       </div>
       <div class="col-lg-4 col-sm-6 mb-5">
         <article class="text-center">
-          <img class="img-fluid mb-4" src="theme/images_bareact/section/motor_vehicle.jpg" alt="post-thumb">
+          <img class="img-fluid mb-4" src="/theme/images_bareact/section/motor_vehicle.jpg" alt="post-thumb">
           <p class="text-uppercase mb-2"></p>
           <h4 class="title-border"><a class="text-dark" href="blog-single.html">Motor Vehicle Law</a></h4>
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et

@@ -111,7 +111,7 @@ class BareactDetl extends \yii\db\ActiveRecord
 
     public function getBareactBody($doc_code){
         $model = BareactDetl::find()
-           ->select('body,bareact_code')
+           ->select('level,act_title,bareact_code,body')
            ->where(['doc_id' => $doc_code])
            ->one();
           return $model;

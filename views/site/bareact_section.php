@@ -15,7 +15,7 @@ $this->title = 'Bareact Sections';
               $doc_id = $model['doc_id'];
 			?>
 		<!-- <div class="panel-body"> -->
-			<p class="groove"><a href="index.php?r=site/bareact-completion&doc_code=<?php echo $doc_id?>"><?php echo $model['act_title'];?></a></p>
+			<p class="groove"><a href="/site/bareact-completion?doc_code=<?php echo $doc_id?>"><?php echo $model['act_title'];?></a></p>
 		<!-- </div> -->
 	<?php } ?>
 	</div>

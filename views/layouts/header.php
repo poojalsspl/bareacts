@@ -1,6 +1,6 @@
 <header class="navigation">
   <nav class="navbar navbar-expand-lg navbar-light">
-    <a class="navbar-brand" href="index.html"><img class="img-fluid" src="theme/images_bareact/logo.png" alt="logo"></a>
+    <a class="navbar-brand" href="index.html"><img class="img-fluid" src="/theme/images_bareact/logo.png" alt="logo"></a>
     <button class="navbar-toggler border-0" type="button" data-toggle="collapse" data-target="#navogation"
       aria-controls="navogation" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
@@ -13,23 +13,23 @@
             role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
             Home
           </a> -->
-           <a class="nav-link text-uppercase text-dark" href="/index.php?r=site/index">Home</a>
+           <a class="nav-link text-uppercase text-dark" href="/site/index">Home</a>
           <!-- <div class="dropdown-menu" aria-labelledby="navbarDropdown">
             <a class="dropdown-item" href="index.html">Homepage 1</a>
             <a class="dropdown-item" href="homepage-2.html">Homepage 2</a>
           </div> -->
         </li>
         <li class="nav-item">
-          <a class="nav-link text-uppercase text-dark" href="/index.php?r=site/about">About</a>
+          <a class="nav-link text-uppercase text-dark" href="/site/about">About</a>
         </li>
        <!--  <li class="nav-item">
           <a class="nav-link text-uppercase text-dark" href="blog.html">Blog</a>
         </li> -->
          <li class="nav-item">
-          <a class="nav-link text-uppercase text-dark" href="/index.php?r=site/bareact-list">Bareacts</a>
+          <a class="nav-link text-uppercase text-dark" href="/site/bareact-list">Bareacts</a>
         </li> 
         <li class="nav-item">
-          <a class="nav-link text-uppercase text-dark" href="/index.php?r=site/contact">Contact</a>
+          <a class="nav-link text-uppercase text-dark" href="/site/contact">Contact</a>
         </li>
       </ul>
      <!--  <form class="form-inline position-relative ml-lg-4">

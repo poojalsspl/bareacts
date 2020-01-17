@@ -13,6 +13,7 @@ use app\models\BareactCatgMast;
 use app\models\BareactSubcatgMast;
 use app\models\BareactMast;
 use app\models\BareactDetl;
+use yii\helpers\Json;
 
 class SiteController extends Controller
 {
@@ -172,6 +173,15 @@ class SiteController extends Controller
         return $this->render('bareact_completion',[
          'models' => $barBody,
         ]);
+    }
+
+     public function actionBareactFinal($id)
+    {
+         $bareact = BareactMast::find()->select(['doc_id'])->where(['bareact_code'=>$id])->one();
+         $bareactmast_docid = $bareact['doc_id'];
+         $query = BareactDetl::find()->select('body')->where(['=','doc_id',$bareactmast_docid])->one();
+         $result = Json::encode($query);
+         return $result;   
     }
 
 

@@ -20,7 +20,7 @@ $this->title = 'Bareact';
               $br_code = $model['bareact_code'];
 			?>
 		<!-- <div class="panel-body"> -->
-			<p class="groove"><a href="index.php?r=site/bareact-sections&br_code=<?php echo $br_code?>"><?php echo $model['bareact_desc'];?></a></p>
+			<p class="groove"><a href="/site/bareact-sections?br_code=<?php echo $br_code?>"><?php echo $model['bareact_desc'];?></a></p>
 		<!-- </div> -->
 	<?php } ?>
 	</div>

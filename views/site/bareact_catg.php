@@ -14,7 +14,7 @@ $this->title = 'Bareact Categories';
               $act_catg = $model['act_catg_code'];
 			?>
 		<!-- <div class="panel-body"> -->
-			<p class="groove"><a href="index.php?r=site/bareact-subcatg&cat_code=<?php echo $act_catg?>"><?php echo $model['act_catg_desc'];?></a></p>
+			<p class="groove"><a href="/site/bareact-subcatg?cat_code=<?php echo $act_catg?>"><?php echo $model['act_catg_desc'];?></a></p>
 		<!-- </div> -->
 	<?php } ?>
 	</div>

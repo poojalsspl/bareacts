@@ -20,7 +20,7 @@ $this->title = 'Bareact SubCategories';
               $sub_code = $model['act_sub_catg_code'];
 			?>
 		<div class="col-sm-6">
-			<p class="groove"><a href="index.php?r=site/bareact&sub_code=<?php echo $sub_code?>"><?php echo $model['act_sub_catg_desc'];?></a></p>
+			<p class="groove"><a href="/site/bareact?sub_code=<?php echo $sub_code?>"><?php echo $model['act_sub_catg_desc'];?></a></p>
 		</div>
 	<?php } ?>
 	</div>
