@@ -10,18 +10,19 @@ $this->title = 'Bareact';
 
 ?>
 
- <!-- <a href="index.php?r=site/bareact-subcatg&cat_code=21" class="btn btn-info btn-lg">
-          <span class="glyphicon glyphicon-arrow-left"></span> Back
-        </a> -->
-        <br><br>
+<section class="section">
+  <div class="container">
+    <div class="row">
 
-	<div class="panel panel-default">
-		<?php foreach($models as $model) { 
+    	<?php foreach($models as $model) { 
               $br_code = $model['bareact_code'];
 			?>
-		<!-- <div class="panel-body"> -->
-			<p class="groove"><a href="/site/bareact-sections?br_code=<?php echo $br_code?>"><?php echo $model['bareact_desc'];?></a></p>
-		<!-- </div> -->
-	<?php } ?>
-	</div>
+      <div class="col-lg-12">
+            <h3 class="font-weight-light"><span class="font-weight-bold"></span></h3>
+            <p><br><a href="/site/bareact-sections?br_code=<?php echo $br_code?>"><?php echo $model['bareact_desc'];?></a></p>
+      </div>
+       <?php } ?>
+    </div>
+  </div>
+</section><br><br><br><br>
 

@@ -33,11 +33,10 @@ $directoryAsset = Yii::$app->assetManager->getPublishedUrl('@vendor/theme');
     ) ?>
 
 
-    <div class="container">
        
         <?= Alert::widget() ?>
         <?= $content ?>
-    </div>
+  
 
 <footer style="background-color: #FEEBE7">
     <?= $this->render(
